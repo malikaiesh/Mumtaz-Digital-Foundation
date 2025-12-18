@@ -1,0 +1,338 @@
+Mumtaz Digital Foundation – Ultimate Lms Website Prompt
+✅ ULTIMATE COMPLETE PROMPT
+Advanced Online Learning Management System (LMS)
+Website Name: Mumtaz Digital Foundation
+🎯 PROJECT OVERVIEW
+
+Build a powerful, professional, and scalable Online Courses & Learning Management System (LMS) named Mumtaz Digital Foundation. The platform should provide career-focused digital skills training, student management, certifications, monetization, community engagement, and advanced admin controls.
+
+The system must be built using PHP + MySQL with HTML, CSS, JavaScript (Bootstrap allowed) and designed to scale like Udemy / Coursera, but fully controlled by the admin.
+
+📚 COURSES OFFERED
+
+Website Development
+
+WordPress Development
+
+Complete SEO Course
+
+Digital Marketing
+
+Future-ready courses (expandable)
+
+🌐 FRONTEND (STUDENT SIDE)
+🏠 Homepage
+
+Professional hero section with tagline: “Empowering Digital Skills for the Future – Mumtaz Digital Foundation”
+
+Featured & trending courses
+
+Learning roadmaps (Beginner → Advanced)
+
+Why Choose Us section
+
+Testimonials & success stories
+
+Instructor highlights
+
+Latest blog posts
+
+CTA buttons (Enroll Now / View Courses)
+
+SEO-optimized content
+
+📖 Courses Page
+
+Course listing with filters (category, level, price)
+
+Course cards show:
+
+Title, duration, level
+
+Instructor
+
+Price (Free / Paid)
+
+SEO-friendly URLs
+
+📄 Course Details Page
+
+Full description
+
+Course curriculum (modules & lessons)
+
+Skills & tools covered
+
+Career outcomes
+
+Instructor profile
+
+Roadmap suggestions
+
+Enroll button (login required)
+
+🧑‍🎓 Student Registration & Login
+
+Secure signup/login
+
+Email verification (optional)
+
+Forgot password
+
+reCAPTCHA protection
+
+Session-based authentication
+
+📊 Student Dashboard
+
+Students can:
+
+View enrolled courses
+
+Track progress with progress bars
+
+Access lessons (video/text/PDF)
+
+Submit assignments
+
+Attempt quizzes & exams
+
+Download certificates
+
+Build portfolio
+
+Update profile & password
+
+🎓 LEARNING SYSTEM (ADVANCED)
+🔹 Lesson Management
+
+Video lessons (YouTube / Vimeo / self-hosted)
+
+Text-based lessons
+
+Downloadable PDFs
+
+Mark lesson as complete
+
+🔹 Assignments System
+
+File uploads & link submissions
+
+Admin review & approval
+
+🔹 Quiz & Exam System
+
+MCQs / True-False / Short answers
+
+Time-based exams
+
+Passing criteria required for certificate
+
+🧠 AI-POWERED FEATURES
+
+AI Study Assistant (course-based)
+
+AI course recommendations
+
+🏆 CERTIFICATION & CAREER SUPPORT
+
+Auto-generated certificates (PDF)
+
+Unique Certificate ID & verification page
+
+Multiple certificate levels
+
+Resume templates & interview prep
+
+Freelancing & career guides
+
+💼 FREELANCING & PRACTICAL EXPERIENCE
+
+Student portfolio builder (public profile link)
+
+Internship & project board
+
+Real-world tasks & projects
+
+💰 MONETIZATION SYSTEM
+
+Free & paid courses
+
+Subscription plans (monthly/yearly)
+
+Manual payments (Bank / JazzCash / EasyPaisa)
+
+Auto payment gateways (Stripe / PayPal optional)
+
+Coupon & discount system
+
+Affiliate & referral program
+
+👥 COMMUNITY & ENGAGEMENT
+
+Course-based discussion forums
+
+Student Q&A system
+
+Live classes & webinars (Zoom / Google Meet)
+
+Recorded session access
+
+Announcements & notice board
+
+🔔 NOTIFICATIONS & AUTOMATION
+
+Email notifications (SMTP)
+
+WhatsApp alerts (API integration)
+
+Browser push notifications
+
+Enrollment, lesson, certificate alerts
+
+🛠️ ADMIN PANEL (SUPER POWERFUL)
+🔐 Admin Authentication
+
+Secure login
+
+Role-based access:
+
+Super Admin
+
+Course Manager
+
+Instructor
+
+Support Staff
+
+Login logs & audit trail
+
+📚 Course Management
+
+Add/edit/delete courses
+
+Curriculum & lesson control
+
+Assign instructors
+
+Draft/publish control
+
+👨‍🎓 Student Management
+
+View, approve, block students
+
+Manual enrollment
+
+Progress tracking
+
+Bulk import/export (CSV)
+
+🧾 Enrollment & Payment Management
+
+Payment approval system
+
+Invoice generation
+
+Revenue reports
+
+📰 Blog & Content Management
+
+SEO blog posting
+
+Categories & tags
+
+Auto internal linking to courses
+
+📈 Analytics & Reports
+
+Total students, courses, enrollments
+
+Course completion rates
+
+Revenue analytics
+
+Student behavior tracking
+
+⚙️ Website Settings
+
+Logo, favicon, branding
+
+Email & SMTP settings
+
+Social links
+
+Footer & static content
+
+🧩 Custom Code Manager
+
+Insert custom code in:
+
+Head
+
+Body
+
+Footer
+
+Google Analytics
+
+Google Tag Manager
+
+Facebook Pixel
+
+Ads scripts
+
+🔍 SEO & MARKETING SYSTEM
+
+Meta titles & descriptions
+
+SEO-friendly URLs
+
+Auto XML sitemap
+
+Robots.txt manager
+
+Schema markup (Courses)
+
+Lead capture (free PDFs / mini-courses)
+
+🛡️ SECURITY & TRUST
+
+SQL injection & XSS protection
+
+CSRF protection
+
+Password hashing (bcrypt)
+
+Brute-force protection
+
+File upload validation
+
+DRM protection (basic)
+
+Session/device management
+
+Daily backup & restore
+
+🌍 GLOBAL & SCALABILITY
+
+Multi-language support (English / Urdu)
+
+Multi-currency support (PKR, USD)
+
+Mobile-first responsive design
+
+Performance optimization & caching
+
+🧑‍💻 TECHNOLOGY STACK
+
+Backend: PHP (Core PHP or Laravel-ready)
+
+Database: MySQL
+
+Frontend: HTML, CSS, JavaScript, Bootstrap
+
+Server: Apache / Nginx
+
+🎯 FINAL GOAL
+
+Create a future-proof, career-focused, revenue-generating LMS platform for Mumtaz Digital Foundation that supports students from learning → certification → freelancing → career growth, with full admin control, strong SEO, and enterprise-level security.
