@@ -1,6 +1,7 @@
 run = "php -S 0.0.0.0:8000 -t ."
 
 entrypoint = "index.php"
+modules = ["php-8.3"]
 
 [nix]
 channel = "stable-22_11"
@@ -10,8 +11,36 @@ run = ["php", "-S", "0.0.0.0:8000", "-t", "."]
 deploymentTarget = "cloudrun"
 
 [[ports]]
+localPort = 5000
+externalPort = 5000
+
+[[ports]]
 localPort = 8000
 externalPort = 80
 
 [agent]
 expertMode = true
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "LMS Server"
+
+[[workflows.workflow]]
+name = "LMS Server"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "php -S 0.0.0.0:5000"
+waitForPort = 5000
+
+[workflows.workflow.metadata]
+outputType = "webview"
