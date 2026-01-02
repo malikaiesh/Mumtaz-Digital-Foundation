@@ -5,12 +5,12 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 ini_set('log_errors', 1);
 
-define('SITE_NAME', 'Mumtaz Digital Foundation');
-define('SITE_TAGLINE', 'Empowering Digital Skills for the Future');
-define('SITE_URL', 'https://' . $_SERVER['HTTP_HOST']);
-define('UPLOAD_PATH', __DIR__ . '/../uploads/');
-define('CURRENCY', 'PKR');
-define('CURRENCY_SYMBOL', 'Rs.');
+if (!defined('SITE_NAME')) define('SITE_NAME', 'Mumtaz Digital Foundation');
+if (!defined('SITE_TAGLINE')) define('SITE_TAGLINE', 'Empowering Digital Skills for the Future');
+if (!defined('SITE_URL')) define('SITE_URL', 'https://' . $_SERVER['HTTP_HOST']);
+if (!defined('UPLOAD_PATH')) define('UPLOAD_PATH', __DIR__ . '/../uploads/');
+if (!defined('CURRENCY')) define('CURRENCY', 'PKR');
+if (!defined('CURRENCY_SYMBOL')) define('CURRENCY_SYMBOL', 'Rs.');
 
 require_once __DIR__ . '/database.php';
 
