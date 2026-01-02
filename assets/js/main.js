@@ -113,6 +113,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         updateCarousel();
+
+        // Automatic Movement
+        let autoMove = setInterval(() => {
+            currentIndex = (currentIndex + 1) % cards.length;
+            updateCarousel();
+        }, 3000);
+
+        teamCarousel.addEventListener('mouseenter', () => clearInterval(autoMove));
+        teamCarousel.addEventListener('mouseleave', () => {
+            autoMove = setInterval(() => {
+                currentIndex = (currentIndex + 1) % cards.length;
+                updateCarousel();
+            }, 3000);
+        });
     }
 });
 

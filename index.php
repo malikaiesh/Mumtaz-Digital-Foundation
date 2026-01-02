@@ -59,13 +59,27 @@ include 'includes/header.php';
             </div>
             <div class="col-lg-6">
                 <div class="team-carousel-container" id="teamCarousel">
-                    <div class="team-card-wrapper" data-index="0">1</div>
-                    <div class="team-card-wrapper" data-index="1">2</div>
-                    <div class="team-card-wrapper" data-index="2">3</div>
-                    <div class="team-card-wrapper" data-index="3">4</div>
-                    <div class="team-card-wrapper" data-index="4">5</div>
-                    <div class="team-card-wrapper" data-index="5">6</div>
-                    <div class="team-card-wrapper" data-index="6">7</div>
+                    <div class="team-card-wrapper" data-index="0">
+                        <img src="/attached_assets/stock_images/professional_busines_72adff50.jpg" alt="Team 1" class="img-fluid rounded-4">
+                    </div>
+                    <div class="team-card-wrapper" data-index="1">
+                        <img src="/attached_assets/stock_images/professional_busines_70034280.jpg" alt="Team 2" class="img-fluid rounded-4">
+                    </div>
+                    <div class="team-card-wrapper" data-index="2">
+                        <img src="/attached_assets/stock_images/professional_busines_1f60a9e9.jpg" alt="Team 3" class="img-fluid rounded-4">
+                    </div>
+                    <div class="team-card-wrapper" data-index="3">
+                        <img src="/attached_assets/stock_images/professional_busines_d00e8dcc.jpg" alt="Team 4" class="img-fluid rounded-4">
+                    </div>
+                    <div class="team-card-wrapper" data-index="4">
+                        <img src="/attached_assets/stock_images/professional_busines_d4ca588b.jpg" alt="Team 5" class="img-fluid rounded-4">
+                    </div>
+                    <div class="team-card-wrapper" data-index="5">
+                        <img src="/attached_assets/stock_images/professional_busines_0c4b7ef0.jpg" alt="Team 6" class="img-fluid rounded-4">
+                    </div>
+                    <div class="team-card-wrapper" data-index="6">
+                        <img src="/attached_assets/stock_images/professional_busines_6457e788.jpg" alt="Team 7" class="img-fluid rounded-4">
+                    </div>
                 </div>
                 <div class="team-carousel-controls">
                     <button class="carousel-btn carousel-btn-prev" id="prevTeam">Prev</button>
