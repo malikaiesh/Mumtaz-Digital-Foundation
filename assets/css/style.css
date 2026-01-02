@@ -64,6 +64,38 @@ body {
     padding: 100px 0;
     position: relative;
     overflow: hidden;
+    min-height: 600px;
+}
+
+.hero-section .team-carousel-container {
+    height: 400px;
+    margin-top: -50px;
+}
+
+.hero-section .team-card-wrapper {
+    width: 200px;
+    height: 300px;
+    font-size: 2rem;
+}
+
+.hero-section .team-card-wrapper.prev {
+    transform: translateX(-180px) scale(0.9);
+}
+
+.hero-section .team-card-wrapper.next {
+    transform: translateX(180px) scale(0.9);
+}
+
+.hero-section .team-card-wrapper.far-prev {
+    transform: translateX(-350px) scale(0.7);
+}
+
+.hero-section .team-card-wrapper.far-next {
+    transform: translateX(350px) scale(0.7);
+}
+
+.hero-section .team-carousel-controls {
+    margin-top: 20px;
 }
 
 .hero-section::before {

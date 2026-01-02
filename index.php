@@ -57,8 +57,20 @@ include 'includes/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 d-none d-lg-block text-center">
-                <img src="https://illustrations.popsy.co/amber/student-with-laptop.svg" alt="Learning" class="img-fluid" style="max-height: 400px;">
+            <div class="col-lg-6">
+                <div class="team-carousel-container" id="teamCarousel">
+                    <div class="team-card-wrapper" data-index="0">1</div>
+                    <div class="team-card-wrapper" data-index="1">2</div>
+                    <div class="team-card-wrapper" data-index="2">3</div>
+                    <div class="team-card-wrapper" data-index="3">4</div>
+                    <div class="team-card-wrapper" data-index="4">5</div>
+                    <div class="team-card-wrapper" data-index="5">6</div>
+                    <div class="team-card-wrapper" data-index="6">7</div>
+                </div>
+                <div class="team-carousel-controls">
+                    <button class="carousel-btn carousel-btn-prev" id="prevTeam">Prev</button>
+                    <button class="carousel-btn carousel-btn-next" id="nextTeam">Next</button>
+                </div>
             </div>
         </div>
     </div>
