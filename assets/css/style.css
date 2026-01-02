@@ -234,6 +234,53 @@ body {
     color: var(--danger);
 }
 
+/* Marquee Section Styles */
+.marquee-container {
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.marquee-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.marquee-track {
+    display: flex;
+    gap: 30px;
+    width: max-content;
+}
+
+.feature-card-wrapper {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+.left-to-right {
+    animation: scroll-left 30s linear infinite;
+}
+
+.right-to-left {
+    animation: scroll-right 30s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-380px * 3)); } /* card width + gap * half count */
+}
+
+@keyframes scroll-right {
+    0% { transform: translateX(calc(-380px * 3)); }
+    100% { transform: translateX(0); }
+}
+
+.marquee-container:hover .marquee-track {
+    animation-play-state: paused;
+}
+
 .feature-card {
     background: white;
     padding: 2rem;
