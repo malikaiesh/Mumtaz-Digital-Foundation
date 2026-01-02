@@ -6,6 +6,7 @@
     <meta name="description" content="<?php echo isset($meta_description) ? $meta_description : 'Mumtaz Digital Foundation - Empowering Digital Skills for the Future. Learn Web Development, WordPress, SEO, and Digital Marketing.'; ?>">
     <meta name="keywords" content="online courses, web development, wordpress, seo, digital marketing, pakistan">
     <title><?php echo isset($page_title) ? $page_title . ' - ' . SITE_NAME : SITE_NAME; ?></title>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
