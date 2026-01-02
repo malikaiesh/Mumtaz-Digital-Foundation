@@ -318,15 +318,15 @@ include 'includes/header.php';
 <section class="py-5 bg-white">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="section-title">Success Stories</h2>
+            <h2 class="section-title"><span class="section-title-highlight">Success Stories</span></h2>
             <p class="section-subtitle">Hear from our successful students</p>
         </div>
         <div class="row g-4">
             <?php foreach ($testimonials as $testimonial): ?>
             <div class="col-md-4">
                 <div class="testimonial-card h-100">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="testimonial-avatar-circle bg-primary text-white">
                             <?php echo strtoupper(substr($testimonial['name'], 0, 1)); ?>
                         </div>
                         <div class="ms-3">
@@ -334,10 +334,10 @@ include 'includes/header.php';
                             <small class="text-muted"><?php echo htmlspecialchars($testimonial['role']); ?></small>
                         </div>
                     </div>
-                    <p class="text-muted mb-3"><?php echo htmlspecialchars($testimonial['content']); ?></p>
+                    <p class="text-muted mb-4" style="line-height: 1.8;"><?php echo htmlspecialchars($testimonial['content']); ?></p>
                     <div class="rating-stars">
-                        <?php for ($i = 0; $i < $testimonial['rating']; $i++): ?>
-                        <i class="fas fa-star"></i>
+                        <?php for ($i = 0; $i < 5; $i++): ?>
+                        <i class="fas fa-star <?php echo $i < $testimonial['rating'] ? 'text-warning' : 'text-gray-300'; ?>"></i>
                         <?php endfor; ?>
                     </div>
                 </div>
