@@ -267,13 +267,19 @@ body {
     animation: scroll-right 30s linear infinite;
 }
 
-@keyframes scroll-left {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-380px * 6)); } /* card width + gap * half count (6 cards) */
+.testimonial-card-wrapper {
+    width: 400px;
+    flex-shrink: 0;
 }
 
-.marquee-container:hover .marquee-track {
-    animation-play-state: paused;
+@keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-430px * 3)); } /* card width + gap * half count (3 cards) */
+}
+
+@keyframes scroll-right {
+    0% { transform: translateX(calc(-430px * 3)); }
+    100% { transform: translateX(0); }
 }
 
 .feature-card {

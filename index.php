@@ -321,28 +321,54 @@ include 'includes/header.php';
             <h2 class="section-title"><span class="section-title-highlight">Success Stories</span></h2>
             <p class="section-subtitle">Hear from our successful students</p>
         </div>
-        <div class="row g-4">
-            <?php foreach ($testimonials as $testimonial): ?>
-            <div class="col-md-4">
-                <div class="testimonial-card h-100">
-                    <div class="d-flex align-items-center mb-4">
-                        <div class="testimonial-avatar-circle bg-primary text-white">
-                            <?php echo strtoupper(substr($testimonial['name'], 0, 1)); ?>
-                        </div>
-                        <div class="ms-3">
-                            <h6 class="mb-0 fw-bold"><?php echo htmlspecialchars($testimonial['name']); ?></h6>
-                            <small class="text-muted"><?php echo htmlspecialchars($testimonial['role']); ?></small>
+        <div class="row g-4 marquee-container">
+            <div class="marquee-content">
+                <div class="marquee-track right-to-left">
+                    <?php foreach ($testimonials as $testimonial): ?>
+                    <div class="testimonial-card-wrapper">
+                        <div class="testimonial-card h-100">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="testimonial-avatar-circle bg-primary text-white">
+                                    <?php echo strtoupper(substr($testimonial['name'], 0, 1)); ?>
+                                </div>
+                                <div class="ms-3">
+                                    <h6 class="mb-0 fw-bold"><?php echo htmlspecialchars($testimonial['name']); ?></h6>
+                                    <small class="text-muted"><?php echo htmlspecialchars($testimonial['role']); ?></small>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-4" style="line-height: 1.8;"><?php echo htmlspecialchars($testimonial['content']); ?></p>
+                            <div class="rating-stars">
+                                <?php for ($i = 0; $i < 5; $i++): ?>
+                                <i class="fas fa-star <?php echo $i < $testimonial['rating'] ? 'text-warning' : 'text-gray-300'; ?>"></i>
+                                <?php endfor; ?>
+                            </div>
                         </div>
                     </div>
-                    <p class="text-muted mb-4" style="line-height: 1.8;"><?php echo htmlspecialchars($testimonial['content']); ?></p>
-                    <div class="rating-stars">
-                        <?php for ($i = 0; $i < 5; $i++): ?>
-                        <i class="fas fa-star <?php echo $i < $testimonial['rating'] ? 'text-warning' : 'text-gray-300'; ?>"></i>
-                        <?php endfor; ?>
+                    <?php endforeach; ?>
+                    <!-- Duplicate for seamless loop -->
+                    <?php foreach ($testimonials as $testimonial): ?>
+                    <div class="testimonial-card-wrapper">
+                        <div class="testimonial-card h-100">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="testimonial-avatar-circle bg-primary text-white">
+                                    <?php echo strtoupper(substr($testimonial['name'], 0, 1)); ?>
+                                </div>
+                                <div class="ms-3">
+                                    <h6 class="mb-0 fw-bold"><?php echo htmlspecialchars($testimonial['name']); ?></h6>
+                                    <small class="text-muted"><?php echo htmlspecialchars($testimonial['role']); ?></small>
+                                </div>
+                            </div>
+                            <p class="text-muted mb-4" style="line-height: 1.8;"><?php echo htmlspecialchars($testimonial['content']); ?></p>
+                            <div class="rating-stars">
+                                <?php for ($i = 0; $i < 5; $i++): ?>
+                                <i class="fas fa-star <?php echo $i < $testimonial['rating'] ? 'text-warning' : 'text-gray-300'; ?>"></i>
+                                <?php endfor; ?>
+                            </div>
+                        </div>
                     </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
-            <?php endforeach; ?>
         </div>
     </div>
 </section>
