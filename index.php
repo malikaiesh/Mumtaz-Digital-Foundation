@@ -200,6 +200,28 @@ include 'includes/header.php';
     </div>
 </section>
 
+<section class="team-carousel-section">
+    <div class="container text-center mb-5">
+        <h2 class="section-title text-white">Our Expert Team</h2>
+        <p class="section-subtitle">Meet the professionals behind Mumtaz Digital Foundation</p>
+    </div>
+    
+    <div class="team-carousel-container" id="teamCarousel">
+        <div class="team-card-wrapper" data-index="0">1</div>
+        <div class="team-card-wrapper" data-index="1">2</div>
+        <div class="team-card-wrapper" data-index="2">3</div>
+        <div class="team-card-wrapper" data-index="3">4</div>
+        <div class="team-card-wrapper" data-index="4">5</div>
+        <div class="team-card-wrapper" data-index="5">6</div>
+        <div class="team-card-wrapper" data-index="6">7</div>
+    </div>
+
+    <div class="team-carousel-controls">
+        <button class="carousel-btn carousel-btn-prev" id="prevTeam">Prev</button>
+        <button class="carousel-btn carousel-btn-next" id="nextTeam">Next</button>
+    </div>
+</section>
+
 <section class="stats-section">
     <div class="container">
         <div class="row g-4">
