@@ -629,16 +629,109 @@ body {
     border-radius: 12px;
 }
 
-@media (max-width: 768px) {
-    .hero-section {
-        padding: 60px 0;
+.footer-section {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    margin-top: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary);
+}
+
+.footer-links li {
+    margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+    transform: translateX(5px);
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.social-link {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #94a3b8;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: var(--primary);
+    color: white;
+    transform: translateY(-3px);
+}
+
+.footer-contact li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 1rem;
+    color: #94a3b8;
+}
+
+.footer-contact i {
+    color: var(--primary);
+    margin-top: 5px;
+}
+
+.footer-divider {
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.footer-legal a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-legal a:hover {
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .footer-heading::after {
+        left: 50%;
+        transform: translateX(-50%);
     }
-    
-    .section-title {
-        font-size: 1.75rem;
+    .footer-section {
+        text-align: center;
     }
-    
-    .stat-number {
-        font-size: 2rem;
+    .footer-contact li, .social-links {
+        justify-content: center;
     }
 }
