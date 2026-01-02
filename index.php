@@ -191,31 +191,6 @@ include 'includes/header.php';
                             <p class="text-muted mb-0">Get freelancing guides, portfolio building, interview prep, and career counseling to kickstart your career.</p>
                         </div>
                     </div>
-                    <!-- Duplicate for seamless loop -->
-                    <div class="feature-card-wrapper">
-                        <div class="feature-card h-100">
-                            <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
-                            <h5 class="fw-bold mb-3">Practical Learning</h5>
-                            <p class="text-muted mb-0">Learn by doing with real-world projects, assignments, and hands-on exercises that prepare you for the industry.</p>
-                        </div>
-                    </div>
-                    <div class="feature-card-wrapper">
-                        <div class="feature-card h-100">
-                            <div class="feature-icon"><i class="fas fa-certificate"></i></div>
-                            <h5 class="fw-bold mb-3">Verified Certificates</h5>
-                            <p class="text-muted mb-0">Earn industry-recognized certificates upon completion that boost your resume and LinkedIn profile.</p>
-                        </div>
-                    </div>
-                    <div class="feature-card-wrapper">
-                        <div class="feature-card h-100">
-                            <div class="feature-icon"><i class="fas fa-briefcase"></i></div>
-                            <h5 class="fw-bold mb-3">Career Support</h5>
-                            <p class="text-muted mb-0">Get freelancing guides, portfolio building, interview prep, and career counseling to kickstart your career.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="marquee-track right-to-left">
                     <div class="feature-card-wrapper">
                         <div class="feature-card h-100">
                             <div class="feature-icon"><i class="fas fa-users"></i></div>
@@ -238,6 +213,27 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <!-- Duplicate for seamless loop -->
+                    <div class="feature-card-wrapper">
+                        <div class="feature-card h-100">
+                            <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
+                            <h5 class="fw-bold mb-3">Practical Learning</h5>
+                            <p class="text-muted mb-0">Learn by doing with real-world projects, assignments, and hands-on exercises that prepare you for the industry.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card-wrapper">
+                        <div class="feature-card h-100">
+                            <div class="feature-icon"><i class="fas fa-certificate"></i></div>
+                            <h5 class="fw-bold mb-3">Verified Certificates</h5>
+                            <p class="text-muted mb-0">Earn industry-recognized certificates upon completion that boost your resume and LinkedIn profile.</p>
+                        </div>
+                    </div>
+                    <div class="feature-card-wrapper">
+                        <div class="feature-card h-100">
+                            <div class="feature-icon"><i class="fas fa-briefcase"></i></div>
+                            <h5 class="fw-bold mb-3">Career Support</h5>
+                            <p class="text-muted mb-0">Get freelancing guides, portfolio building, interview prep, and career counseling to kickstart your career.</p>
+                        </div>
+                    </div>
                     <div class="feature-card-wrapper">
                         <div class="feature-card h-100">
                             <div class="feature-icon"><i class="fas fa-users"></i></div>

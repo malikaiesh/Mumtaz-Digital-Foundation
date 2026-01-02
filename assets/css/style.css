@@ -269,12 +269,7 @@ body {
 
 @keyframes scroll-left {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-380px * 3)); } /* card width + gap * half count */
-}
-
-@keyframes scroll-right {
-    0% { transform: translateX(calc(-380px * 3)); }
-    100% { transform: translateX(0); }
+    100% { transform: translateX(calc(-380px * 6)); } /* card width + gap * half count (6 cards) */
 }
 
 .marquee-container:hover .marquee-track {
